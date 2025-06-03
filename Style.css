@@ -1,0 +1,82 @@
+p.one {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 0px;
+}
+p.two {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: 0px;
+}
+p.three {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+h2.Hot {
+    font-weight: bold;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  flex: 1;
+  font-size: 16px;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.search-bar button.filter-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-bar button.filter-button img {
+  width: 20px;
+  height: 20px;
+}
+.card button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.card img {
+  width: 40%;
+  height: auto;
+  border-radius: 12px;
+  align-items: grid;
+}
+.card p {
+display: inline;
+font-weight: bold;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
