@@ -83,5 +83,5 @@ font-weight: bold;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
-  /* gap: 0px; */
+  gap: 0px;
 }
